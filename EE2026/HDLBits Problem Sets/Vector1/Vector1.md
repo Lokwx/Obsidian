@@ -72,7 +72,6 @@ module top_module(
     output wire [7:0] out_hi,
     output wire [7:0] out_lo );
 ```
-
 ## Solution
 
 ```

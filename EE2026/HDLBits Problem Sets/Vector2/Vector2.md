@@ -22,7 +22,6 @@ module top_module(
     assign out[23:16] = in[16:23];
     assign out[31:24] = in[24:31];
 ```
-
 ### Solution
 
 ```

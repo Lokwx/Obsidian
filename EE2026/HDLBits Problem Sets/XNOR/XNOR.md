@@ -1,4 +1,5 @@
 ![Pasted image 20260708164641](Pasted%20image%2020260708164641.png)
+### Solution
 
 ```
 module top_module( 

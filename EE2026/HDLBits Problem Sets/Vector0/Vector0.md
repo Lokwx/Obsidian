@@ -1,4 +1,7 @@
-![Pasted image 20260708164726](Pasted%20image%2020260708164726.png)```
+![Pasted image 20260708164726](Pasted%20image%2020260708164726.png)
+### Solution
+
+```
 module top_module ( 
     input wire [2:0] vec,
     output wire [2:0] outv,
