@@ -12,7 +12,7 @@ Within each `add16`, 16 full adders (module `add1`, not provided) are instanti
 module add1 ( input a, input b, input cin, output sum, output cout );
 ```
 
-![[Pasted image 20260708200732.png]]
+![Pasted image 20260708200732](Pasted%20image%2020260708200732.png)
 
 ---
 ### Solution

@@ -6,7 +6,7 @@ Connect the modules together as shown in the diagram below. The provided module�
 
 `module add16 ( input[15:0] **a**, input[15:0] **b**, input **cin**, output[15:0] **sum**, output **cout** );`
 
-![[Pasted image 20260708204302.png]]
+![Pasted image 20260708204302](Pasted%20image%2020260708204302.png)
 
 ---
 ### Solution
