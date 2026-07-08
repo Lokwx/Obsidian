@@ -1,7 +1,3 @@
-wire **[99:0]** my_vector; // Declare a 100-element vector assign out = my_vector[10]; // Part-select one bit out of the vector
-
-![[Pasted image 20260708160055.png]]
-
 ```
 module top_module ( 
     input wire [2:0] vec,

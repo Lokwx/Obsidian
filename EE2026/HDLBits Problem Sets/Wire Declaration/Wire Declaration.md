@@ -1,5 +1,3 @@
-![[Pasted image 20260708155603.png]]
-
 ```
 `default_nettype none
 module top_module(
