@@ -6,7 +6,7 @@ Build the adder-subtractor below.
 
 Use a 32-bit wide XOR gate to invert the b input whenever sub is 1. (This can also be viewed as b[31:0] XORed with sub replicated 32 times. See [replication operator](https://hdlbits.01xz.net/wiki/vector4 "vector4").). Also connect the sub input to the carry-in of the adder.
 
-![Pasted image 20260708210816](Pasted%20image%2020260708210816.png)
+![Pasted image 20260708212825](Pasted%20image%2020260708212825.png)
 
 ---
 ### Solution
