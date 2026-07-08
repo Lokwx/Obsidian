@@ -1,4 +1,4 @@
-```
+![Pasted image 20260708164702](Pasted%20image%2020260708164702.png)![Pasted image 20260708164710](Pasted%20image%2020260708164710.png)```
 `default_nettype none
 module top_module(
     input a,
