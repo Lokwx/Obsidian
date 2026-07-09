@@ -19,3 +19,6 @@ More Verilog Features
 
 Basic Gates
 - [ ] Popcount3
+
+Arithmetic Circuits
+- [ ] exams/ece241_2014_q1c
