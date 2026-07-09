@@ -1,7 +1,7 @@
 # Exams/m2014 q4j
 Implement the following circuit:
 
-![[Pasted image 20260709212226.png]]
+![Pasted image 20260709212226](Pasted%20image%2020260709212226.png)
 
 ```
 module top_module (
