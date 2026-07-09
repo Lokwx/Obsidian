@@ -9,7 +9,6 @@
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
-----
 ## Problem Sets To Redo 
 
 More Verilog Features
