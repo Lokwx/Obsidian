@@ -27,7 +27,7 @@ For the above example, the output is '1' if the input matches row 2 **or** row
 
 Create a combinational circuit that implements the above truth table.
 
-![Pasted image 20260709181202.png](Pasted%20image%2020260709181202.png)
+**![Pasted image 20260709182408](Pasted%20image%2020260709182408.png)
 
 ```
 module top_module( 
