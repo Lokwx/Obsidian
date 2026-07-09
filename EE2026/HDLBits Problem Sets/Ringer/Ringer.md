@@ -6,7 +6,7 @@ Design hint: When designing circuits, one often has to think of the problem "bac
 
 The above problem description is written in an imperative form suitable for software programming (if ring then do this), so you must convert it to a more declarative form suitable for hardware implementation (assign ringer = ___). Being able to think in, and translate between, both styles is one of the most important skills needed for hardware design.
 
-![[Pasted image 20260709184202.png]]
+![Pasted image 20260709184202](Pasted%20image%2020260709184202.png)
 
 ```
 module top_module (

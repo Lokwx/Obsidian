@@ -1,6 +1,6 @@
 Taken from 2015 midterm question 4
 
-See [mt2015_q4a](https://hdlbits.01xz.net/wiki/Mt2015_q4a "Mt2015 q4a") and [mt2015_q4b](https://hdlbits.01xz.net/wiki/Mt2015_q4b "Mt2015 q4b") for the submodules used here. The top-level design consists of two instantiations each of subcircuits A and B, as shown below.![[Pasted image 20260709183628.png]]
+See [mt2015_q4a](https://hdlbits.01xz.net/wiki/Mt2015_q4a "Mt2015 q4a") and [mt2015_q4b](https://hdlbits.01xz.net/wiki/Mt2015_q4b "Mt2015 q4b") for the submodules used here. The top-level design consists of two instantiations each of subcircuits A and B, as shown below.![Pasted image 20260709183628](Pasted%20image%2020260709183628.png)
 
 ```
 Module A: z = (x^y) & x.
