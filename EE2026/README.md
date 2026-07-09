@@ -6,11 +6,11 @@
 		- Problem
         - Solution
 
-## **/Verilog Introduction**: This folder contains information that introduces Verilog Syntax.
+## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
 ----
-## Problem Sets To Redo
+## Problem Sets To Redo 
 
 More Verilog Features
 - [ ] Adder100i
@@ -18,3 +18,5 @@ More Verilog Features
 - [ ] Vector100r
 - [ ] Bcdadd100
 
+Basic Gates
+- [ ] Popcount3
