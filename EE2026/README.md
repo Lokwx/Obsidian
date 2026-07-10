@@ -9,6 +9,10 @@
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
+## **/Kmap Introduction**: This folder contains information that introduces the concepts of  Karnaugh Maps.
+	- Simplification Methods
+	- Sum Of Products (SOP)
+	- Products Of Sum (POS)
 ## Problem Sets To Redo 
 
 More Verilog Features
