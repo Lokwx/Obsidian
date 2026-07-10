@@ -6,8 +6,9 @@ Hello :)) I will populate this repository over time.
 ## **/HDLBits Problem Sets**: This folder contains my solutions to the HDLBits Verilog exercises.
     - Each exercise is contained in its own folder.
     - Each folder's `.md` file contains:
-		- Problem
+		- Problem Set
         - Solution
+        - Pointers/Errors Made
 
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
