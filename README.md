@@ -10,7 +10,7 @@ Hello :))
         - Solution
         - Pointers/Errors Made
 	
-### Problem Sets To Redo 
+### Problem Sets To Redo/Attempt
 
 1. More Verilog Features
 	- [ ] Adder100i
@@ -27,6 +27,11 @@ Hello :))
 4. Latches and Flip Flops
 	- [ ] Edgecapture
 	- [ ] Dualedge
+
+5. Counters
+	- [ ] ece241 2014 q7a
+	- [ ] # ece241 2014 q7b
+	- [ ] countBCD
 
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
