@@ -33,6 +33,13 @@ Hello :))
 	- [ ] # ece241 2014 q7b
 	- [ ] countBCD
 
+6. Shift Registers
+	- [ ] 2015 midterm question 5
+	- [ ] 2014 q4b
+	- [ ] ece241 2013 q12
+	
+7. More Circuits
+	- [ ] Rule90
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
