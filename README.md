@@ -1,4 +1,4 @@
-Hello :)) I will populate this repository over time. 
+Hello :)) 
 
 ---
 # EE2026
@@ -9,15 +9,8 @@ Hello :)) I will populate this repository over time.
 		- Problem Set
         - Solution
         - Pointers/Errors Made
-
-## **/Verilog Introduction**: This folder contains information that introduces Verilog.
-	- Common syntax
-
-## **/Kmap Introduction**: This folder contains information that introduces the concepts of  Karnaugh Maps.
-	- Simplification Methods
-	- Sum Of Products (SOP)
-	- Products Of Sum (POS)
-## Problem Sets To Redo 
+	
+### Problem Sets To Redo 
 
 1. More Verilog Features
 	- [ ] Adder100i
@@ -30,6 +23,19 @@ Hello :)) I will populate this repository over time.
 
 3. Arithmetic Circuits
 	- [ ] exams/ece241_2014_q1c
+
+4. Latches and Flip Flops
+	- [ ] Edgecapture
+	- [ ] Dualedge
+
+## **/Verilog Introduction**: This folder contains information that introduces Verilog.
+	- Common syntax
+
+## **/Kmap Introduction**: This folder contains information that introduces the concepts of  Karnaugh Maps.
+	- Simplification Methods
+	- Sum Of Products (SOP)
+	- Products Of Sum (POS)
+
 
 ---
 
