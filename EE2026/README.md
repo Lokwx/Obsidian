@@ -1,6 +1,6 @@
-Hello :))
----
+
 # EE2026
+> Hello :) 
 
 ## **/HDLBits Problem Sets**: This folder contains my solutions to the HDLBits Verilog exercises.
     - Each exercise is contained in its own folder.
