@@ -1,7 +1,7 @@
 _This is the second component in a series of five exercises that builds a complex counter out of several smaller circuits. See [the final exercise](https://hdlbits.01xz.net/wiki/exams/review2015_fancytimer "exams/review2015_fancytimer") for the overall design._
 
 Build a finite-state machine that searches for the sequence 1101 in an input bit stream. When the sequence is found, it should set start_shifting to 1, forever, until reset. Getting stuck in the final state is intended to model going to other states in a bigger FSM that is not yet implemented. We will be extending this FSM in the next few exercises
-![[Pasted image 20260801213545.png]]
+![Pasted image 20260801213545](Pasted%20image%2020260801213545.png)
 
 ```
 module top_module (

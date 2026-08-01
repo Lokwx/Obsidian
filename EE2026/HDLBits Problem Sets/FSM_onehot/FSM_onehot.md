@@ -1,6 +1,6 @@
 Given the following state machine with 1 input and 2 outputs:
 
-![[Pasted image 20260801132151.png]]
+![Pasted image 20260801132151](Pasted%20image%2020260801132151.png)
 
 Suppose this state machine uses one-hot encoding, where state[0] through state[9] correspond to the states S0 though S9, respectively. The outputs are zero unless otherwise specified.
 

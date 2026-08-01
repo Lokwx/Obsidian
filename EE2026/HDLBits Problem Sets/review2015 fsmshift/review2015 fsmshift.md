@@ -4,7 +4,7 @@ As part of the FSM for controlling the shift register, we want the ability to en
 
 Whenever the FSM is reset, assert shift_ena for 4 cycles, then 0 forever (until reset).
 
-![[Pasted image 20260801213611.png]]
+![Pasted image 20260801213611](Pasted%20image%2020260801213611.png)
 
 ```
 module top_module (

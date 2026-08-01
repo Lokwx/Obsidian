@@ -1,6 +1,6 @@
 Build a counter that counts from 0 to 999, inclusive, with a period of 1000 cycles. The reset input is synchronous, and should reset the counter to 0.
 
-![[Pasted image 20260801213440.png]]
+![Pasted image 20260801213440](Pasted%20image%2020260801213440.png)
 
 
 ```
