@@ -1,0 +1,43 @@
+The game [Lemmings](https://en.wikipedia.org/wiki/Lemmings_%28video_game%29) involves critters with fairly simple brains. So simple that we are going to model it using a finite state machine.
+
+In the Lemmings' 2D world, Lemmings can be in one of two states: walking left or walking right. It will switch directions if it hits an obstacle. In particular, if a Lemming is bumped on the left, it will walk right. If it's bumped on the right, it will walk left. If it's bumped on both sides at the same time, it will still switch directions.
+
+Implement a Moore state machine with two states, two inputs, and one output that models this behaviour.
+
+clkbump_leftbump_rightwalk_leftwalk_right
+
+See also: [Lemmings2](https://hdlbits.01xz.net/wiki/Lemmings2 "Lemmings2"), [Lemmings3](https://hdlbits.01xz.net/wiki/Lemmings3 "Lemmings3"), and [Lemmings4](https://hdlbits.01xz.net/wiki/Lemmings4 "Lemmings4").
+
+```
+module top_module(
+    input clk,
+    input areset,    // Freshly brainwashed Lemmings walk left.
+    input bump_left,
+    input bump_right,
+    output walk_left,
+    output walk_right); //  
+
+    parameter LEFT=0, RIGHT=1;
+    reg state, next_state;
+
+    always @(*) begin
+        case (state)
+            LEFT: 
+				next_state = bump_left ? RIGHT : LEFT;
+			RIGHT: 
+                next_state = bump_right ? LEFT : RIGHT;
+        endcase
+    end
+
+    always @(posedge clk, posedge areset) begin
+        // State flip-flops with asynchronous reset
+        if (areset) state <= LEFT;
+        else state <= next_state;
+    end
+    
+    assign walk_left = (state == LEFT);
+    assign walk_right = (state == RIGHT);
+
+endmodule
+
+```

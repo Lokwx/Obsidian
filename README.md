@@ -40,6 +40,10 @@ Hello :))
 	
 7. More Circuits
 	- [ ] Rule90
+
+8. Finite State Machines
+	- [ ] Exams/ece241 2013 q4
+	- [ ] Lemmings1
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
