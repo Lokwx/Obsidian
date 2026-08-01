@@ -1,0 +1,28 @@
+This 4-to-1 multiplexer doesn't work. Fix the bug(s).
+
+You are provided with a bug-free 2-to-1 multiplexer:
+
+module mux2 (
+    input sel,
+    input [7:0] a,
+    input [7:0] b,
+    output [7:0] out
+);
+
+```
+module top_module (
+    input [1:0] sel,
+    input [7:0] a,
+    input [7:0] b,
+    input [7:0] c,
+    input [7:0] d,
+    output [7:0] out  ); //
+	
+    wire [7:0] outm1, outm2;
+    mux2 m1(sel[0], a, b, outm1);
+    mux2 m2(sel[0], c, d, outm2);
+    mux2 m3(sel[1], outm1, outm2, out);
+
+endmodule
+```
+
