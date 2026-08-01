@@ -44,6 +44,9 @@ Hello :))
 8. Finite State Machines
 	- [ ] Exams/ece241 2013 q4
 	- [ ] Lemmings1
+
+9. Bugs Catching
+	 - [ ] [Bugs addsubz - HDLBits](https://hdlbits.01xz.net/wiki/Bugs_addsubz)
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
