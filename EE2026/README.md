@@ -1,5 +1,4 @@
-Hello :)) 
-
+Hello :))
 ---
 # EE2026
 
@@ -47,6 +46,13 @@ Hello :))
 
 9. Bugs Catching
 	 - [ ] [Bugs addsubz - HDLBits](https://hdlbits.01xz.net/wiki/Bugs_addsubz)
+
+10. Build A Circuit From A Simulation Waveform
+	- [ ] ALL EXERCISES
+
+11. Writing Testbenches
+	 - [ ] ALL 
+	 
 ## **/Verilog Introduction**: This folder contains information that introduces Verilog.
 	- Common syntax
 
