@@ -17,6 +17,14 @@ So if an exam asks:
 
 The complement operation is only performed for negative values.
 
+
+### Comparison Table for 10-bit `1111111110`
+
+| **System**          | **How it interprets 1111111110**                           | **Decimal Value** |
+| ------------------- | ---------------------------------------------------------- | ----------------- |
+| **2's Complement**  | $-2^9 + (2^8 + \dots + 2^1)$                               | **$-2$**          |
+|  **1's Complement** | Invert all bits ($0000000001 \to 1$) and add negative sign | **$-1$**          |
+
 ![Pasted image 20260802184309](Pasted%20image%2020260802184309.png)
 
 1st complement → Use the maximum value for the radix (e.g for radix r = 2), where the values range from (0 - 2^(n-1)) → (0 - 1) 
