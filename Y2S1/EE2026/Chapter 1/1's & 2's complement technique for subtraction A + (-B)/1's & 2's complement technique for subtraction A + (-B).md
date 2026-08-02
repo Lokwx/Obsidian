@@ -2,6 +2,20 @@
 Diminished-Radix Complement Representation (Radix - 1) → 1’s complement 
 Radix Complement → 2’s Complement
 
+> **Complements are only used to represent negative numbers.**
+> Positive numbers are written normally as x’s complement.
+
+Whenever you see a question like **"Represent +N in X's complement"**:
+
+- ✅ If **N is positive**, **just write it normally**.
+- ✅ If **N is negative**, **take the required complement**.
+
+So if an exam asks:
+
+- Represent **+2B** in **15's complement** → **2B**
+- Represent **−2B** in **15's complement** → **D4**
+
+The complement operation is only performed for negative values.
 
 ![Pasted image 20260802184309](Pasted%20image%2020260802184309.png)
 
