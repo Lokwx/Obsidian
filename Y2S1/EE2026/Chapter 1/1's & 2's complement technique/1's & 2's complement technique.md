@@ -2,7 +2,7 @@
 Diminished-Radix Complement Representation (Radix - 1) → 1’s complement 
 Radix Complement → 2’s Complement
 
-![[Pasted image 20260802184309.png]]
+![Pasted image 20260802184309](Pasted%20image%2020260802184309.png)
 
 1st complement → Use the maximum value for the radix (e.g for radix r = 2), where the values range from (0 - 2^(n-1)) → (0 - 1) 
 So in this case, the maximum value is 1
@@ -15,7 +15,7 @@ To get the 1’s complement, simply subtract the subtrahend by the max val (equa
     0100
 ```
 
-![[Pasted image 20260802183856.png]]
+![Pasted image 20260802183856](Pasted%20image%2020260802183856.png)
 
 The carry signifies that the minuend (magnitude) is greater than the subtrahend (magnitude)
 - Thats why we need the End Around Carry, if there is *any* to add to the final result that we get from the result
@@ -23,11 +23,11 @@ The carry signifies that the minuend (magnitude) is greater than the subtrahend 
 ### 2’s complement
 Add 1 to the 1’s complement
 
-![[Pasted image 20260802184740.png]]
+![Pasted image 20260802184740](Pasted%20image%2020260802184740.png)
 
 For 2’s complement, you do not need to use end around carry
 
-![[Pasted image 20260802185137.png]]
+![Pasted image 20260802185137](Pasted%20image%2020260802185137.png)
 
 can just ignore the carry for 2’s complement
 
