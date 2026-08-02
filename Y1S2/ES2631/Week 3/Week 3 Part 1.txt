@@ -1,0 +1,92 @@
+As students and researchers, we are expected to follow certain internationally recognized conventions of good academic practice.
+These norms include the careful selection, acknowledgement and integration of all our sources of information.
+Learning how to integrate sources into our work is key to avoiding plagiarism and upholding academic integrity as members of the university community.
+In this lecture, we will learn what academic sources are, how to assess and use them in our work,
+what plagiarism is, the different forms it takes and how to avoid it through effective citation practices.
+The slides and handout accompanying this lecture also provide links to relevant NUS policies on plagiarism and academic dishonesty,
+generative AI use and the student code of conduct.
+Do refer to these documents throughout the course and especially as you work on your assignments.
+Academic sources come in three forms, primary, secondary and tertiary.
+Primary sources provide raw or as yet uninterpreted data.
+Primary sources vary by discipline and can include surveys, questionnaires, interviews, experimental data, original reports, news reports, objects, literature and film.
+Secondary sources are papers that interpret primary data in order to make an argument or solve a research problem.
+Mainly published in academic journals, they are written for scholarly or professional audiences.
+Tertiary sources are books and articles that summarize, synthesize or report on secondary sources.
+They are meant for a general audience and include textbooks, manuals, encyclopedias and articles in subject specific popular magazines like MIT Technology Review, Computer World and Wired.
+In your assignments for this course, you will mainly use secondary sources, both academic and non-academic.
+As mentioned before, academic secondary sources use evidence from primary data to answer a research question, make an argument or propose solutions to a problem.
+In academic research, they are used in various ways.
+To establish what is already known about the topic in order to identify a gap in knowledge or a problem worth examining.
+To derive concepts, frameworks, models or methodology for analyzing primary data.
+And finally, to show how the research extends, contests or modifies existing scholarship in the field.
+NUS libraries offer students free access to a wide range of academic and non-academic databases, journals and books.
+A database is a searchable electronic collection of published work.
+Scopus and Web of Science are examples of multidisciplinary databases.
+Whereas Engineering Village, Sociological Abstracts and Business Source Premier are discipline specific.
+Factiva is a useful non-academic database through which to access news articles.
+You can use the database tab on the library homepage shown on the slide to search for journal articles within a database.
+You can also access academic articles via Google Scholar by connecting your NUS library account to it.
+Use the links on this page to understand how to navigate the library website and find suitable materials for your assignments.
+Now, all sources are not created equal.
+And since your evidence comes mainly from secondary sources, it is important to assess their quality before using them.
+Typically, we assess secondary sources in terms of these five criteria.
+Authority refers to the place and status of publication as well as the reputation of the author.
+Relevance to the field and to your specific project, purpose and research question.
+Timeliness or currency refers to when the source was published and whether its references and findings are still relevant.
+It is important to note here that currency varies by discipline.
+In engineering, for example, a source published five years ago may no longer be current because technology changes so rapidly.
+In disciplines that study society, language and culture, which are slower to change, a source published over two decades ago may still be relevant.
+Accuracy refers to correctness and reliability, checking where the author's evidence comes from, whether the sources are fact checked, whether the evidence fully supports the claims.
+If using an online source or information from a website, it is important to ascertain whether the information is reliable, whether the links are still active and when the information was last updated.
+And finally, assessing your sources involves determining the author's purpose in making the argument, recognizing any disciplinary, cultural or ideological biases and their impacts on the author's viewpoint and conclusions.
+If the source is a website, is it sponsored? By whom? Is the source an advertisement for a product, place or service?
+How do these questions affect the credibility of the site?
+In summary, ask the following questions before you decide whether to use a source in your work.
+You can take a minute to read the questions on this slide.
+This next section deals with plagiarism and academic dishonesty.
+As members of the academic community, we are responsible for acknowledging all our sources properly.
+Failing to do so may result in a plagiarism or academic dishonesty charge with very serious consequences.
+This section explains what academic dishonesty is and the forms it takes and refers you to a few relevant NUS documents and shows you how to develop good academic citation practices.
+Plagiarism is defined as the copying or paraphrasing of another's work or ideas into your own without full acknowledgement.
+Plagiarism is considered a breach of academic integrity.
+All material, whether published, unpublished or generated by AI, must be properly cited.
+Copying or paraphrasing ideas from a published source, a classmate or friend's paper or from a paper you may have written in an earlier semester or for a different course without proper acknowledgement are also considered academic offences.
+Part A of the NUS Code of Student Conduct, a link to which is provided here, also discusses this issue.
+First of all, go through the NUS policy on plagiarism as well as the interim policy on generative AI use, relevant sections of which are included in the syllabus and assessments document uploaded to the module for week one.
+Make sure that all your sources are cited properly before you submit your work for assessment and if in doubt about something, check with your tutor.
+In this course, we will use APA citation style for all assignments, including the oral presentation.
+APA consists of two components, in-text citations and a bibliography.
+You can find details at this link and on the NUS Libraries website.
+While integrating sources into your essay, ensure that they enhance rather than subsume your authorial voice.
+In other words, use sources strategically and purposefully to problematize, support, adapt, modify and contest claims, not make the argument for you.
+We typically integrate sources into our writing in three ways.
+Summary, distilling and condensing main ideas from one or more sources.
+paraphrase, rephrasing a quotation in our own words and with proper citations with the same level of detail as the original.
+Direct quotation, providing an excerpt from the source in quotation marks.
+Try to keep direct quotations to a minimum in your papers.
+While quoting the occasional term, concept or phrase can be impactful, too many direct quotations may convey the impression that you have not understood the source material or that you could not be bothered to communicate it in your own language.
+If you must quote an occasional word or phrase, provide quotation marks and include an in-text citation with the page number.
+In APA, that means including the author's last name, year of publication, and page number.
+If paraphrasing, you still need to acknowledge the source, author's name and year of publication, but you need not include page number.
+Avoid block quotations, large blocks of quoted text.
+Instead, integrate quotations seamlessly into your essay.
+You can use three strategies for doing so.
+A lead in clause, an interrupted structure, or by providing an explanation or closing comment after the quote to show how it furthers your argument.
+Please take a minute to read through the examples on the right of this slide.
+Attribution refers to how authors are referenced.
+Referencing authors in written work typically takes two forms.
+The integral, where the author's name is introduced in the sentence,
+and non-integral, in which the author is referenced parenthetically or in brackets.
+Here are examples of each.
+Both styles are acceptable, but serve different purposes.
+The integral form is useful in emphasizing the author or agent.
+It is useful for foregrounding your voice as an author as you engage with other sources.
+The non-integral or passive attribution form emphasizes the reported information or message over the agent or author,
+and is used, for example, in scientific papers where process or outcome are more significant than authorial positions or contributions.
+In your assignments for this course, you can alternate between the two forms for stylistic variety.
+Finally, here are some verbs you can use in your essays for different kinds of actions.
+The link on the slide provides more examples, and we will discuss reporting verbs again as part of academic conventions in week eight of the semester.
+Here is the list of references for this lecture.
+Thank you for listening.
+Please refer to the handout accompanying this lecture, and check with your tutors if you have questions.
+Good luck with the assignments for the course.
