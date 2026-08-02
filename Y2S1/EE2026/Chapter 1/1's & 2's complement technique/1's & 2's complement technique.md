@@ -2,6 +2,7 @@
 Diminished-Radix Complement Representation (Radix - 1) → 1’s complement 
 Radix Complement → 2’s Complement
 
+
 ![Pasted image 20260802184309](Pasted%20image%2020260802184309.png)
 
 1st complement → Use the maximum value for the radix (e.g for radix r = 2), where the values range from (0 - 2^(n-1)) → (0 - 1) 
