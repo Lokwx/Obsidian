@@ -1,4 +1,4 @@
-![[Pasted image 20260803220042.png]]
+![Pasted image 20260803220042](Pasted%20image%2020260803220042.png)
 
 To compute canonical SOP using boolean algebra, we can use 
 $$
