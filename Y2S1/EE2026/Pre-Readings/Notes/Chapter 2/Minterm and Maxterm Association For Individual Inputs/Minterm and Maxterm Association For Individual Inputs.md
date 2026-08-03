@@ -11,7 +11,6 @@ When $\neg ABC$ is 111, we know that $\neg ABC$ will give 0 because  $0 \cdot 1 
 $\therefore$ There exists one and *only one* input value such that given minterm = 1, where minterm is the SOP for example $\neg ABC / A\neg BC$
 
 ---
-Maxterm
 
 | Minterm                                                                                                                                                                            | Maxterm                                                                                                                                                             |     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
@@ -19,4 +18,18 @@ Maxterm
 | Equals 1 for one unique input because<br><br>For example<br>$$<br>	A \cap B \cap C<br>$$<br>The only time where it equals to 1 is equal to 1 is <br>$$<br>	A = B = C = 1<br>$$<br> | Equals 0 for one unique input<br><br>For example,<br><br>$$<br>A \lor B \lor C<br>$$<br><br>The only time it equals **0** is when<br><br>$$<br>A = B = C = 0.<br>$$ |     |
 | The other scenarios because of $\cap$ the value will be equal to 0 because any other values of $ABC$ will result in the SOP to be 0                                                | The other scenarios because of $\lor$ the value will equal to 1 which is not unique                                                                                 |     |
 | There exists only one input such that given maxterm equals to 1                                                                                                                    | There exists only one input such that maxterm equal to 0                                                                                                            |     |
+*Note that it is for one input only*
+
+---
+For example
+$\overline AB\overline C$ is 1 only for input 010
+$\overline A \overline B \overline C$ is 1 only for input 000
+
+However, a boolean function can contain many minterms, so we OR them together to get a SOP where the rows F = 1
+
+*Basically just telling u SOP is the $\lor$ of many many minterms that are $\cap$* together e.g. $ABC$ + $\overline ABC$ 
+
+---
+For Product of Sum, its basically telling u that there is one unique maxterm that equal to 0 for each term $A \lor B \lor C \lor{ = 0 + 0 + 0}$. However, for boolean functions, you need to combine as many maxterms that you can get that all equal to 0 then summing them together using $\lor$
+
 
