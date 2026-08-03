@@ -21,15 +21,18 @@ $$
 \begin{align*}
 &\text{Given: } \bar{x}y + xz \\
 &\text{We apply De Morgan's law as follows:} \\
-&\overline{\overline{\bar{x}y + xz}} \leftarrow \text{Complement twice (same result)} \\[1em]
+&\overline{\overline{\bar{x}y + xz}} \leftarrow \text{Complement twice (same result)} \\
+&\\
 &\text{De Morgan's Theorem: } \overline{A+B} = \bar{A} \cdot \bar{B} \\
-&\therefore \overline{\bar{x}y} \cdot \overline{xz} \\[1em]
+&\therefore \overline{\bar{x}y} \cdot \overline{xz} \\
+&\\
 &\text{Applying De Morgan's to the first term:} \\
 &\overline{\bar{x}y} = \overline{\bar{x}} + \bar{y} = x + \bar{y} \\[1em]
 &\text{Applying De Morgan's to the second term:} \\
-&\overline{xz} = \bar{x} + \bar{z} \\[1em]
+&\overline{xz} = \bar{x} + \bar{z} \\
+&\\
 &\text{Combining the terms yields POS form:} \\
-&(x + \bar{y}) \cdot (\bar{x} + \bar{z}) \\[1em]
+&(x + \bar{y}) \cdot (\bar{x} + \bar{z}) \\
 &\text{Next step: Expand using the distribution postulate to reach CPOS.}
 \end{align*}
 $$
