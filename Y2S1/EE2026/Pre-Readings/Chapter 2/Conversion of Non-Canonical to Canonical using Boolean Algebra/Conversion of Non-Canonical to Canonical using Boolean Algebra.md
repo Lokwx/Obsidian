@@ -29,7 +29,7 @@ $$
 &\therefore \overline{\bar{x}y} \cdot \overline{xz} \\
 &\\
 &\text{Applying De Morgan's to the first term:} \\
-&\overline{\bar{x}y} = \overline{\bar{x}} + \bar{y} = x + \bar{y} \\[1em]
+&\overline{\bar{x}y} = \overline{\bar{x}} + \bar{y} = x + \bar{y} \\
 &\text{Applying De Morgan's to the second term:} \\
 &\overline{xz} = \bar{x} + \bar{z} \\
 &\\
