@@ -58,5 +58,5 @@ To get $-3$, you take the 1's complement of $+3$ (flip all bits):
     
 - **$-3 =$ `1100`**
 
-![[Pasted image 20260803141529.png]]
+![Pasted image 20260803141529](Pasted%20image%2020260803141529.png)
 > Do not need to convert (1) 00101100 → 00101100 using the reverse 2’s complement to get the magnitude as the sign for this result is 0, which indicates that the result is a positive number, can just read off the value which in this case is 44

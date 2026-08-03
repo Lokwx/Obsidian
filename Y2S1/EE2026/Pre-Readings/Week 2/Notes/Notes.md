@@ -16,7 +16,7 @@ Commutative Law
 	>Order doesn’t matter
 
 
-![[Pasted image 20260803111620.png]]
+![Pasted image 20260803111620](Pasted%20image%2020260803111620.png)
 
 
 - **Expand the right side:**
@@ -39,18 +39,18 @@ Commutative Law
     
     $$= x + yz \quad \text{(Matches the left-hand side)}$$
 
-![[Pasted image 20260803112556.png]]
+![Pasted image 20260803112556](Pasted%20image%2020260803112556.png)
 
 1) 1 OR 0 → 1
 2) 1 and 0 → 0
 
 ---
 
-![[Pasted image 20260803112635.png]]
+![Pasted image 20260803112635](Pasted%20image%2020260803112635.png)
 
 ---
 
-![[Pasted image 20260803112756.png]]
+![Pasted image 20260803112756](Pasted%20image%2020260803112756.png)
 
 
 Dont look at + and \* as addition or multiplication
