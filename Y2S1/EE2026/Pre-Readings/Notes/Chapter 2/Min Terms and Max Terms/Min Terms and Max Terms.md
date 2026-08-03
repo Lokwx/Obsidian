@@ -14,4 +14,4 @@ Canonical form
 Non Canonical form
 > SOP and POS (But it doesnt contain maxterm/minterm respectively)
 
-![[Pasted image 20260803183417.png]]
+![Pasted image 20260803183417](Pasted%20image%2020260803183417.png)
