@@ -24,23 +24,24 @@ $$
 
 Alternatively,
 $$
-\begin{align}
-&\text{Given } \overline xy + xz  \\
-&\text{We apply demorgans law as follows,} \\ 
-& \overline {\overline {\overline xy + xz}} \leftarrow \text{Complement twice (same result)}\\
-&  \\
-& \text{Demorgan says that } \overline{A+B} = \overline A\cdot \overline B &  \\
-& \therefore \overline{\overline xy} \cdot \overline{xz} \\
-&  \\
-& \text{Applying demorgans to the first part} \\
-& \overline {\overline x y} = \overline {\overline x} + \overline y = x + \overline y \\
-&  \\
-& \text{Applying demorgans to the other part} \\
-& \overline {xz} = \overline x + \overline z \\
-&  \\
-& \text{Combining those two together, we will get} \\
-& (x+\overline y)\cdot(\overline x + \overline z) \\
-&  \\
-& \text{Using expansion, we will get the CPOS that we want which is long so i wont type it out}
-\end{align}
+\begin{align*}
+&\text{Given } \bar{x}y + xz \\
+&\text{We apply De Morgan's law as follows,} \\
+&\overline {\overline {\bar{x}y + xz}} \leftarrow \text{Complement twice (same result)} \\
+\\
+&\text{De Morgan says that } \overline{A+B} = \bar{A}\cdot \bar{B} \\
+&\therefore \overline{\bar{x}y} \cdot \overline{xz} \\
+\\
+&\text{Applying De Morgan's to the first part} \\
+&\overline {\bar{x} y} = \overline{\bar{x}} + \bar{y} = x + \bar{y} \\
+\\
+&\text{Applying De Morgan's to the other part} \\
+&\overline {xz} = \bar{x} + \bar{z} \\
+\\
+&\text{Combining those two together, we will get} \\
+&(x+\bar{y})\cdot(\bar{x} + \bar{z}) \\
+\\
+&\text{Using expansion, we will get the CPOS that we want}
+\end{align*}
 $$
+
