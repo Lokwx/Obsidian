@@ -20,7 +20,9 @@ $$
 $$
 \begin{align*}
 &\text{Given: } \bar{x}y + xz \\
+&\\
 &\text{We apply De Morgan's law as follows:} \\
+&\\
 &\overline{\overline{\bar{x}y + xz}} \leftarrow \text{Complement twice (same result)} \\
 &\\
 &\text{De Morgan's Theorem: } \overline{A+B} = \bar{A} \cdot \bar{B} \\
