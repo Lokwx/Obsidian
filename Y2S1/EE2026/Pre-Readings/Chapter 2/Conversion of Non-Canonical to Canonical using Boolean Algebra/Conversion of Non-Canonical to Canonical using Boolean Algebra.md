@@ -26,22 +26,19 @@ Alternatively,
 $$
 \begin{align*}
 &\text{Given } \bar{x}y + xz \\
-&\text{We apply De Morgan's law as follows,} \\
-&\overline {\overline {\bar{x}y + xz}} \leftarrow \text{Complement twice (same result)} \\
-\\
-&\text{De Morgan says that } \overline{A+B} = \bar{A}\cdot \bar{B} \\
-&\therefore \overline{\bar{x}y} \cdot \overline{xz} \\
-\\
-&\text{Applying De Morgan's to the first part} \\
-&\overline {\bar{x} y} = \overline{\bar{x}} + \bar{y} = x + \bar{y} \\
-\\
-&\text{Applying De Morgan's to the other part} \\
-&\overline {xz} = \bar{x} + \bar{z} \\
-\\
-&\text{Combining those two together, we will get} \\
-&(x+\bar{y})\cdot(\bar{x} + \bar{z}) \\
-\\
-&\text{Using expansion, we will get the CPOS that we want}
+&\text{We apply De Morgan's law as follows:} \\
+&\overline{\overline{\bar{x}y + xz}} \leftarrow \text{Complement twice (same result)} \\[1em]
+&\text{De Morgan says that } \overline{A+B} = \bar{A} \cdot \bar{B} \\
+&\therefore \overline{\bar{x}y} \cdot \overline{xz} \\[1em]
+&\text{Applying De Morgan's to the first part:} \\
+&\overline{\bar{x}y} = \overline{\bar{x}} + \bar{y} = x + \bar{y} \\[1em]
+&\text{Applying De Morgan's to the other part:} \\
+&\overline{xz} = \bar{x} + \bar{z} \\[1em]
+&\text{Combining those two together, we get:} \\
+&(x+\bar{y}) \cdot (\bar{x} + \bar{z}) \\[1em]
+&\text{Using expansion, we get the CPOS that we want.}
 \end{align*}
 $$
+
+
 
