@@ -23,14 +23,18 @@ Commutative Law
 
     $$
 
+
 (x + y)(x + z) = x \cdot x + x \cdot z + y \cdot x + y \cdot z
 
 $$
     
 - **Apply Idempotent Law ($x \cdot x = x$):**
     
-    $$
+    
+$$
+
 = x + xz + xy + yz
+
 $$
 
 - **Factor out $x$ from the first terms (Absorption Law, $x + xz = x$):**
@@ -40,10 +44,10 @@ $$
 = x(1 + z + y) + yz
 
 $$
-    
+
 - **Apply Boundedness Law ($1 + \text{anything} = 1$):**
-    
-    $$
+
+$$
 = x(1) + yz
 $$
 
@@ -51,10 +55,10 @@ $$
 
     $$
 
+
 = x + yz \quad \text{(Matches the left-hand side)}
 
 $$
-
 ![Pasted image 20260803112556](Pasted%20image%2020260803112556.png)
 
 1) 1 OR 0 → 1
@@ -77,17 +81,25 @@ Even though you can read off the numbers for a positive number, you need to chec
 
 For example,
 $$
+
 	45 = 101101_{2}
+
 $$
 However in 2’s complement it can represent -19 because 
 $$
+
 	101101_{2} \text{ has a 1 as a MSB }\implies \text{ which means that it is a negative number}
+
 $$
 Applying the reverse of 2’s complement to get the number
 $$
+
 	101101_{2} \to 010010_{2} \; (1's) \to 010011 \; (2's) \to 1+2+16 = 19 \to -19 \; \text{Negative MSB}
+
 $$
 In this case, we would need to add in a buffer 0 at the front to signify that 101101 is a positive number
 $$
+
 	45 = 0101101_{2} \; (2's \; Complement)
+
 $$

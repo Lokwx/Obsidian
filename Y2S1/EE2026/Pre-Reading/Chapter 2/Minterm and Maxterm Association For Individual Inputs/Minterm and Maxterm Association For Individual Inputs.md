@@ -20,17 +20,26 @@ $\therefore$ There exists one and *only one* input value such that given minterm
 
 $$
 <br>	A \cap B \cap C<br>
-$$<br>The only time where it equals to 1 is equal to 1 is <br>
+$$
+
+<br>The only time where it equals to 1 is equal to 1 is <br>
+
 $$
 
 <br>	A = B = C = 1<br>
 
-$$<br> | Equals 0 for one unique input<br><br>For example,<br><br>
+$$
+
+<br> | Equals 0 for one unique input<br><br>For example,<br><br>
+
 $$
 
 <br>A \lor B \lor C<br>
 
-$$<br><br>The only time it equals **0** is when<br><br>
+$$
+
+<br><br>The only time it equals **0** is when<br><br>
+
 $$
 
 <br>A = B = C = 0.<br>
