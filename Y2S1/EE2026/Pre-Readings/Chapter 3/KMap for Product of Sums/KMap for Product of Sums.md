@@ -76,9 +76,11 @@ This is the opposite of a **minterm**, where every literal must evaluate to **1*
 
 1) We will group the values with 0 together, similar to how we simplify a POS Kmap
 2) As mentioned in the previous parts
+
 $$
 \text{For example: } { C\overline D  = 0 \to \overline C + D }
 $$
+
 	>We will take the complement of the 1’s and keep the value that is 0
 	
 3) Thereafter, we will $\cap$ the result together 

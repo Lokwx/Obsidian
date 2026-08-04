@@ -3,15 +3,21 @@
 There are two dual forms of the Consensus Law:
 
 1. **AND-OR Form:**
-    
-    $$AB + \bar{A}C + BC = AB + \bar{A}C$$
+
+    $$
+
+AB + \bar{A}C + BC = AB + \bar{A}C
+
+$$
     
     _(The term $BC$ is redundant and can be removed.)_
     
 2. **OR-AND Form (Dual):**
     
-    $$(A + B)(\bar{A} + C)(B + C) = (A + B)(\bar{A} + C)$$
-    
+    $$
+(A + B)(\bar{A} + C)(B + C) = (A + B)(\bar{A} + C)
+$$
+
     _(The factor $(B + C)$ is redundant and can be removed.)_
     
 

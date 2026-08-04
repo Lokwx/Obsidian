@@ -42,13 +42,19 @@ It gives you the exact same answer instantly with zero addition or subtraction.
 
 If we copy the `1` into the new MSB spot, the top two bits both become `1`:
 
-$$\text{Bits: } \mathbf{1 \ \ 1} \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 0$$
+$$
+\text{Bits: } \mathbf{1 \ \ 1} \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 0
+$$
 
-$$\text{Weights: } (\mathbf{-128}) + (\mathbf{64}) + 32 + 16 + 8 + 4 + 2 + 0$$
+$$
+\text{Weights: } (\mathbf{-128}) + (\mathbf{64}) + 32 + 16 + 8 + 4 + 2 + 0
+$$
 
 Look at what those first two bits do together:
 
-$$-128 + 64 = -64$$
+$$
+-128 + 64 = -64
+$$
 
 By padding with a `1`, the combination of the new MSB and the shifted bit perfectly creates a new negative floor of **$-64$**. Because the floor dropped from $-128$ to $-64$, the entire value is cleanly divided by 2. The result evaluates to $-2$.
 
@@ -56,9 +62,13 @@ By padding with a `1`, the combination of the new MSB and the shifted bit perfec
 
 If you fill the empty spot with `0`, the top two bits become:
 
-$$\text{Bits: } \mathbf{0 \ \ 1} \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 0$$
+$$
+\text{Bits: } \mathbf{0 \ \ 1} \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 1 \ \ 0
+$$
 
-$$\text{Weights: } (\mathbf{0}) + (\mathbf{64}) + 32 + 16 + 8 + 4 + 2 + 0$$
+$$
+\text{Weights: } (\mathbf{0}) + (\mathbf{64}) + 32 + 16 + 8 + 4 + 2 + 0
+$$
 
 Your negative floor is completely gone. Instead of a negative base, you just have a massive positive floor of $+64$, turning the whole number into $+126$.
 

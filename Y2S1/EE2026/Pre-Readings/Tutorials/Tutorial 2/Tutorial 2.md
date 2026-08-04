@@ -20,24 +20,40 @@ Commutative Law
 
 
 - **Expand the right side:**
-    
-    $$(x + y)(x + z) = x \cdot x + x \cdot z + y \cdot x + y \cdot z$$
+
+    $$
+
+(x + y)(x + z) = x \cdot x + x \cdot z + y \cdot x + y \cdot z
+
+$$
     
 - **Apply Idempotent Law ($x \cdot x = x$):**
     
-    $$= x + xz + xy + yz$$
-    
+    $$
+= x + xz + xy + yz
+$$
+
 - **Factor out $x$ from the first terms (Absorption Law, $x + xz = x$):**
-    
-    $$= x(1 + z + y) + yz$$
+
+    $$
+
+= x(1 + z + y) + yz
+
+$$
     
 - **Apply Boundedness Law ($1 + \text{anything} = 1$):**
     
-    $$= x(1) + yz$$
-    
+    $$
+= x(1) + yz
+$$
+
 - **Apply Identity Law ($x \cdot 1 = x$):**
-    
-    $$= x + yz \quad \text{(Matches the left-hand side)}$$
+
+    $$
+
+= x + yz \quad \text{(Matches the left-hand side)}
+
+$$
 
 ![Pasted image 20260803112556](Pasted%20image%2020260803112556.png)
 

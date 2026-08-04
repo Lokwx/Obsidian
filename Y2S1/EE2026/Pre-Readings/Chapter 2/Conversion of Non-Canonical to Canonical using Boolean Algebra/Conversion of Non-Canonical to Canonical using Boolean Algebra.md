@@ -38,6 +38,3 @@ $$
 &\text{Next step: Expand using the distribution postulate to reach CPOS.}
 \end{align*}
 $$
-
-
-
