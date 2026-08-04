@@ -77,29 +77,28 @@ Dont look at + and \* as addition or multiplication
 > Look at it as like OR and AND then it will make much more sense
 
 ## 2’s Complement
-Even though you can read off the numbers for a positive number, you need to check if the magnitude conversion results in a correct 2’s complement
+
+Even though you can read off the numbers for a positive number, you need to check if the magnitude conversion results in a correct 2’s complement.
 
 For example,
-$$
-
-	45 = 101101_{2}
 
 $$
-However in 2’s complement it can represent -19 because 
+45 = 101101_2
 $$
 
-	101101_{2} \text{ has a 1 as a MSB }\implies \text{ which means that it is a negative number}
+However, in 6-bit two’s complement, this pattern has MSB = 1, so it represents a negative number.
 
 $$
-Applying the reverse of 2’s complement to get the number
+\begin{align}
+101101_2 &\to 010010_2 \\
+         &\to 010011_2 \\
+         &= 19_{10} \\
+         &= -19
+\end{align}
 $$
 
-	101101_{2} \to 010010_{2} \; (1's) \to 010011 \; (2's) \to 1+2+16 = 19 \to -19 \; \text{Negative MSB}
+To represent positive \(45\) in signed binary, use a leading 0:
 
 $$
-In this case, we would need to add in a buffer 0 at the front to signify that 101101 is a positive number
-$$
-
-	45 = 0101101_{2} \; (2's \; Complement)
-
+45 = 0101101_2
 $$
