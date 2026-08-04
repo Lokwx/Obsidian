@@ -97,7 +97,7 @@ $$
 \end{align}
 $$
 
-To represent positive \(45\) in signed binary, use a leading 0:
+To represent positive (45) in signed binary, use a leading 0:
 
 $$
 45 = 0101101_2
