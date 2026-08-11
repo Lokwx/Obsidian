@@ -212,6 +212,11 @@ Recode the features and assign a ==similarity value/index== to it, then out of a
 ### Deductive Reasoning
 - We have all the information to reach the correct conclusion (Rule Based Reasoning)
 
+---
+## Lecture Quiz Answers
+![](Lec_1.pdf#page=36&rect=22,352,612,414|Lec_1,%20p.36)
+
+
 
 
 
