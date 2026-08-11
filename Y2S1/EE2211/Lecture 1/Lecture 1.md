@@ -163,12 +163,54 @@ A sequence of actions
 
 ![](Lec_1.pdf#page=27&rect=529,182,713,462|Lec_1,%20p.27)
 
->We are trying to match the samples with the item that we got → and assign a label to it
+>We are trying to match the samples with the new sample that we got → and assign a label to it
 
 ---
 
+### ? How do i define most similar
+$$
+	\text{Feature Extraction (Attributes of Sample)} \to \text{Sample Classification}
+$$
+Machine Learning Pipeline
+
+1) Extract features
+	e.g lightness/colour/size/shape
+
+2) Sample Classification
+> Use the features to classify the new sample
 
 
+![[Lec_1.pdf#page=28&rect=12,186,512,457|Lec_1, p.28]]
+- Assigning features for each sample
+
+![[Lec_1.pdf#page=29&rect=87,87,635,436|Lec_1, p.29]]
+
+Summary of all the features extracted for each sample
+
+
+![[Lec_1.pdf#page=31&rect=14,70,724,415|Lec_1, p.31]]
+
+Recode the features and assign a ==similarity value/index== to it, then out of all the attributes, we will take the highest similarity among them and classify it as that sample
+	*Assuming that we cannot take no for an answer*
+
+## **Nearest Neighbour Classifier**
+1) Find the nearest neighbour among the samples with the highest similarity index
+2) Assign the label to the nearest neighbour within the sample
+
+---
+
+## Inductive vs Deductive Reasoning
+*Inference* → Make predictions
+
+## Main types of inference
+1) Inductive Inference
+2) Deductive Inference
+
+### Inductive Inference
+- We do not have sufficient information to get the perfect result (Probability and Statistics)
+
+### Deductive Reasoning
+- We have all the information to reach the correct conclusion (Rule Based Reasoning)
 
 
 
