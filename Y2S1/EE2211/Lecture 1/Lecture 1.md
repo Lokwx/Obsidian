@@ -180,15 +180,15 @@ Machine Learning Pipeline
 > Use the features to classify the new sample
 
 
-![[Lec_1.pdf#page=28&rect=12,186,512,457|Lec_1, p.28]]
+![](Lec_1.pdf#page=28&rect=12,186,512,457|Lec_1,%20p.28)
 - Assigning features for each sample
 
-![[Lec_1.pdf#page=29&rect=87,87,635,436|Lec_1, p.29]]
+![](Lec_1.pdf#page=29&rect=87,87,635,436|Lec_1,%20p.29)
 
 Summary of all the features extracted for each sample
 
 
-![[Lec_1.pdf#page=31&rect=14,70,724,415|Lec_1, p.31]]
+![](Lec_1.pdf#page=31&rect=14,70,724,415|Lec_1,%20p.31)
 
 Recode the features and assign a ==similarity value/index== to it, then out of all the attributes, we will take the highest similarity among them and classify it as that sample
 	*Assuming that we cannot take no for an answer*
