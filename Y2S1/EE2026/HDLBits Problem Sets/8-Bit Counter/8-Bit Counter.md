@@ -7,7 +7,7 @@ module top_module (
     output [3:0] q);
 
     always @(posedge clk) begin
-        if (reset) q <= 0;
+        if (reset) q <= 0; //sync reset (does not follow clk edge)
         else q <= q + 1'b1;
     end
     	

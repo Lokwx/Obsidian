@@ -18,7 +18,7 @@ Once I have derived the function f, when i feed in an image of a cat, the ML fun
 >If the function is able to do this, we have a perfect dog and cat classifier
 
 ---
-## Artificial Intellgence
+## Artificial Intelligence
  - Any technique which enables computers to mimic human behavior
 
 ## Machine Learning 

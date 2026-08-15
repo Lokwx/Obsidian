@@ -7,7 +7,8 @@ module top_module(
     output cout,
     output [99:0] sum );
 	
-    assign {cout, sum} = a + b + cin;
+    assign {cout, sum} = a + b + cin; //Concat the cout and sum
+    //cout is 100 bits, cout is 1 bit, a + b + cin = [cout][sum]
     
 endmodule
 ```
