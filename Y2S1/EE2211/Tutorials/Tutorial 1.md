@@ -279,4 +279,4 @@ The boundary separates the different classes.
 > **Classification** → learn a decision boundary to determine a **class**
 
 
-Note: the classification boundary isn't always literally a **straight line**. It could be curved or very complex, especially for images.P
+Note: the classification boundary isn't always literally a **straight line**. It could be curved or very complex, especially for images.
