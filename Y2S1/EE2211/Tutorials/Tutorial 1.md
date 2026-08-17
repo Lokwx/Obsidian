@@ -7,6 +7,13 @@ Machine learning is AI techniques that give computers the ability to learn witho
 Example of AI but not ML: Deductive Reasoning 
 → Uses explicit rules and logic. For example “All humans are mortal. Socrates is human. Therefore, Socrates is mortal”
 
+
+1)
+>Chatgpt is both AI and ML applications (deep learning models)
+>SLAM is the middle ground between AI and ML
+
+In between ML and DL → Classical Machine Learning (Regression)
+
 ### Deductive reasoning
 
 In deductive reasoning, the computer doesn’t learn the reasoning rules from data. Humans give it facts and logical rules and it derives conclusions from them
@@ -22,6 +29,12 @@ Question 2: Which of the following is the most reasonable definition of machine 
 Answer: (d)
 Machine learning (Supervised Learning) is the field of study that gives computers the ability to learn without being explicitly programmed.
 
+2 → D
+
+Machine learning is the field of allowing robots to act intelligently. → Algorithms
+Machine learning is the science of programming computers. → Programming Methodology
+"Machine learning only learn from unlabeled data → Can be both
+
 ---
 
 Question 3: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. Suppose we feed a learning algorithm a lot of historical weather data, and have it learn to predict weather. In this setting what is T? 
@@ -35,7 +48,7 @@ TPE → Task, Performance, Experience
 Suppose we feed a learning algorithm a lot of historical weather data, and have it learn to predict weather. In this setting what is T? 
 
 Task → The weather prediction task
-Performance → The probability of it correctly predicting a future data’s weather
+Performance → The probability of it correctly predicting a future data’s weather/==Accuracy Rate/Accurate Score (Rate of success)==
 Experience (Datasets/Training Data) → The historical weather data
 
 Answer: (c)
@@ -69,6 +82,19 @@ I would use a regression problem because the weather data is a continuous value 
 
 I would gather the date vs temperature graph
 
+
+
+Supervised (Labels → Ground Truth)
+If the labels is continuous, then it is a regression task
+> For example, temperature can range from a range of values
+
+If the labels is categorical, then it is  a classification task
+> Finite labels (cloudy/sunny day)
+
+## Supervised Task
+- Labels are fixed (Ground truth)
+- Suggest some features (for example changes in pressure, weather condition etc.)
+
 ---
 Question 5: You want to develop learning algorithms to address each of the following two problems. 
 P1: You’d like the software to examine your email accounts, and decide whether each email is a spam or not. 
@@ -94,6 +120,9 @@ Past sales → regression model → predicted future sales
 > [!important]
 > We don't plot against the "6-month expected sales" because that is what we are trying to **predict**.
 
+
+
+
 ---
 Question 6: Suppose you are working on stock market prediction. Typically tens of millions of shares of a company’s stock are traded each day. You would like to predict the number of shares that will be traded tomorrow. 
 (i) Would you treat this as a classification or a regression problem? 
@@ -103,6 +132,13 @@ Question 6: Suppose you are working on stock market prediction. Typically tens o
 (d) None of these. 
 
 Ans: regression → multiple data points (continuous data)
+
+PCA (Principle Component Analysis) → Feature extraction/Feature Selection
+
+> [!important]
+> GIGO (Garbage In Garbage Out)
+> We are not able to select all the features, so we need to select/extract relevant features
+
 
 - We are predicting the **number of shares traded tomorrow**
 - The output is a **numerical quantity**
@@ -124,8 +160,11 @@ I would plot them into a graph and use it to estimate the next days company stoc
 Question 7: Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply) Assume some appropriate dataset is available for your algorithm to learn from. 
 (a) Determine whether there are vocals (i.e., a human voice singing) in each audio clip extracted from a piece of music, or it is a clip of only musical instruments and no vocals. 
 (b) Given data on how 1000 medical patients respond to an experimental drug (such as effectiveness of the treatment, side effects, etc.), discover whether there are different categories or “types” of patients in terms of how they respond to the drug, and if so what these categories are. 
+→ Clustering algorithm
 (c) Given a large dataset of medical records of patients suffering from heart disease, try to learn whether there might be different clusters of such patients for which we might tailor separate treatments. 
+→ Clustering
 (d) Given a set of data which contains the diet and the occurrence of diabetes from a population over a 10-year period. Predict the odds of a person developing diabetes over the next 10 years.
+→ Supervised (There are labels for the health conditions etc)
 
 Supervised learning → Labelling/Regression/Classification
 Unsupervised learning → Clustering (Finding underlying patterns in data)
@@ -187,14 +226,17 @@ Unsupervised learning → Clustering (Finding underlying patterns in data)
 
 Suppose you are working on a machine learning algorithm to predict if a patient is COVID-19 infected according to the patient’s particulars such as age and health conditions, symptomatic data, such as fever, dry cough, tiredness, aches and pains, sore throat, diarrhoea, conjunctivitis, and headache etc. What are the Task, Performance, and Experience involved according to the definition of machine learning?
 
-Task: COVID-19 detector
+Task: patient classification into “infected” or “uninfected”
 Performance: Accurately detect if the patient is infected with COVID-19
 Experience: labelled health conditions data and symptomatic data
 
 ---
 Question 9: We use labelled data for supervised learning, where the labels are used as the desired target of prediction for classifiers. Which of the next data are the useful labelled data? 
 (a) To build an image object classifier to discriminate between apple and orange, we have many fruit images labelled with the country of origin. 
+(Not useful)
 (b) To build a system to predict the number of COVID cases for tomorrow given the past daily record, we have a collection of daily data for a period of 12 months. 
+(Useful)
+→ Past data can help to predict the future because it helps due to community immunity
 (c) To build a classifier to automatically evaluate student essays, we have collected a set of student essays that have not been graded by teachers" 
 
 (a) is not because we are trying to discriminate between apple and orange, but labelled images with country of origin doesn’t help
